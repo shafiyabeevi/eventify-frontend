@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 export const api = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://eventify-backend-production-f138.up.railway.app',
   headers: { 'Content-Type': 'application/json' },
 })
 
